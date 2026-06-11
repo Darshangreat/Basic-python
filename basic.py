@@ -666,9 +666,152 @@ from tempfile import tempdir
 #Q. Wap to print characters present at odd index only
 
 
-a=input('Enter the string')
+# a=input('Enter the string')
+# i = 0
+# while i < len(a):
+#     if i % 2 != 0:
+#         print(a[i])
+#     i += 1
+
+
+
+
+
+
+
+
+
+#Q. Wap to print the numbers divisible by 5 between the specified limits
+
+# a=int(input('Enter the lower:'))
+# b=int(input('Enter the upper:'))
+#
+# i = a
+#
+# while i <= b:
+#     if i % 5 == 0:
+#         print(i)
+#     i += 1
+
+
+
+
+
+
+#Q. Wap to print only upper case character from the string
+
+# a=input('Enter the string:')
+#
+# i = 0
+# while i < len(a):
+#     if "A" <= a[i] <= 'Z':
+#         print(a[i])
+#     i += 1
+
+
+
+
+
+#Q. Wap to reverse the string without using slicing
+
+
+# a=(input('Enter the string:'))
+#
+# i = 0
+# out = ''
+#
+# while i < len(a):
+#     print('After',out)
+#     out = a[i] + out
+#     print('Before',out)
+#     i += 1
+# print(out)
+
+
+
+
+
+
+
+
+#Q. Wap to check is given string is palindrome or not without using slicing
+
+
+# a=input('Enter the string:')
+#
+# i = 0
+# out = ""
+#
+# while i < len(a):
+#     print(out)
+#     out = a[i] + out
+#     print(out)
+#     i += 1
+#
+# if a == out:
+#     print('Palindrome')
+# else:
+#     print('Not palindrome')
+
+
+
+
+
+
+
+
+#Q. Wap to get the following output
+
+g = 'PyTHON@12#'
+
+# upper = 'PTH'
+# lower = 'y'
+# special = '@#'
+# digits = '12'
+
+
+#
+# g=input('Enter the string:')
+
+# i = 0
+# upper = ''
+# lower = ''
+# special = ''
+# digits = ''
+#
+# while i < len(g):
+#     if 'A' <= g[i]<= 'Z':
+#         upper += g[i]
+#     elif "a" <= g[i] <= 'z':
+#         lower += g[i]
+#     elif '0' <= g[i] <= '9':
+#         digits += g[i]
+#     else:
+#         special += g[i]
+#     i += 1
+#
+# print(upper)
+# print(lower)
+# print(digits)
+# print(special)
+
+
+
+
+
+
+
+#Q. Wap to extract only integer datatype from the given list
+
+data=[12,45,8+9j,'Think',True]
+
 i = 0
-while i < len(a):
-    if i % 2 != 0:
-        print(a[i])
+out = []
+
+while i < len(data):
+    if type(data[i]) == int:
+        out.append(data[i])
     i += 1
+print(out)
+
+
