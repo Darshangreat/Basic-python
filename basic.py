@@ -39,7 +39,10 @@ from tempfile import tempdir
 
 
 
-#Q. WaP to check the whether the given integer is 3 digit number.
+
+#Q. Wap to check the whether the given integer is 3 digit number.
+
+
 # a=int(input('Enter the number:'))
 # if a >= 0 and a <=9:
 #     print('It is an single digit number:')
@@ -47,7 +50,15 @@ from tempfile import tempdir
 #     print('It is an double digit number:')
 
 
+
+
+
+
+
+
 #Q. wap to check the whether the last digit  of a given number is 5
+
+
 # a=int(input('enter first number:'))
 # if a % 10 == 5:
 #     print('It is last digit number is 5:')
@@ -55,7 +66,13 @@ from tempfile import tempdir
 #     print('It is last digit number is not 5:')
 
 
+
+
+
+
+
 #Q. Wap to check the whether the given data is float
+
 
 # a=eval(input('Enter a data: '))
 # if type(a) == float:
@@ -65,11 +82,17 @@ from tempfile import tempdir
 
 
 
+
+
+
+
 #Q. Wap to check the whether the data is single value data
+
 
 # a=eval(input('Enter the data:'))
 # if type(a)== int or type(a)== float or type(a)== complex or type(a)== bool:
 #     print('It is a single value data:')
+
 
 
 
@@ -86,6 +109,8 @@ from tempfile import tempdir
 
 
 
+
+
 #Q. Wap to check whether the given integer is multiple of 3
 
 # a=int(input('Enter the number:'))
@@ -96,7 +121,10 @@ from tempfile import tempdir
 
 
 
+
+
 #Q. Wap to check whether the data is mutable or not
+
 
 # a=eval(input('Enter the number:'))
 # if type(a) in [int,float,complex,bool,str,tuple]:
@@ -108,7 +136,10 @@ from tempfile import tempdir
 
 
 
+
+
 #Q. wap to check whether the given character is digit  or  not
+
 
 # a=(input('Enter the character:'))
 # if '0' <= a <= '9':
@@ -116,7 +147,14 @@ from tempfile import tempdir
 # else:
 #     print('It is not digit:')
 
+
+
+
+
+
 #Q. Wap to check whether the given character is special or not
+
+
 # a=(input('Enter the special character:'))
 # if 'A' <= a <= 'Z' or '0' <= a <= '9' or 'a' <= 'z':
 #     print('It is not a special character')
@@ -124,7 +162,13 @@ from tempfile import tempdir
 #     print('It is a special character')
 
 
+
+
+
+
+
 #Q. Wap to check whether a list consists of middle value or not
+
 
 # a=eval(input('Enter the list:'))
 # if  len(a)% 2 == 0:
@@ -133,7 +177,13 @@ from tempfile import tempdir
 #     print('It have a middle value')
 
 
+
+
+
+
+
 #Q.Consider a tuple of length  2 and check whether the tuple is homogenous or not
+
 
 # a=eval(input('Enter the number: '))
 # if type(a[0]) == type(a[1]):
@@ -142,13 +192,22 @@ from tempfile import tempdir
 #     print('It is not a homogenenus')
 
 
+
+
+
+
+
 #Q, Wap to check whether the string is palindrome or not
+
 
 # a=(input('Enter the character:'))
 # if a==a[::-1]:
 #     print(a,'It is palindrome')
 # else:
 #     print('It is not palindrome')
+
+
+
 
 
 #Q. Possitive and negative
@@ -159,7 +218,11 @@ from tempfile import tempdir
 # else:
 #     print('Negative')
 
-#Q. Wap to check if the given number is single digit number or double digit number or three digit number or greater then three digit number
+
+
+
+#Q. Wap to check if the given number is single digit number or double digit number or three digit number
+# or greater then three digit number
 
 
 # a=int(input('Enter the number:'))
@@ -173,6 +236,12 @@ from tempfile import tempdir
 #     print('It is four digit number:')
 # else:
 #     print('It is greater then four number')
+
+
+
+
+
+
 
 #Q. Wap to find the greatest of three number
 
@@ -189,10 +258,14 @@ from tempfile import tempdir
 #     print('Every number is equal')
 
 
+
+
+
 #Q.  Wap to print grade of the student based on the marks
     # if marks are > 75 then grade 1
     # if marks are between 35 to 75 then grade 2
     # if marks are lesser than 35 than grade 3
+
 
 # a=int(input('Enter the grade:'))
 # if a > 75:
@@ -201,6 +274,9 @@ from tempfile import tempdir
 #     print('Grade is 2')
 # elif a < 35:
 #     print('Grade is 3')
+
+
+
 
 
 # n=input("Enter the character :")
@@ -350,6 +426,11 @@ from tempfile import tempdir
 #     print('it is immutable')
 
 
+
+
+
+
+
 #Q. Wap to print last value of list only if the list is plaindroem string starting with vowel
 
 # a=eval(input('Enter the character:'))
@@ -431,6 +512,8 @@ from tempfile import tempdir
 #     print('Mutable')
 # else:
 #     print('immutable')
+
+
 
 
 
@@ -683,6 +766,7 @@ from tempfile import tempdir
 
 #Q. Wap to print the numbers divisible by 5 between the specified limits
 
+
 # a=int(input('Enter the lower:'))
 # b=int(input('Enter the upper:'))
 #
@@ -803,15 +887,104 @@ g = 'PyTHON@12#'
 
 #Q. Wap to extract only integer datatype from the given list
 
-data=[12,45,8+9j,'Think',True]
+# data=[12,45,8+9j,'Think',True]
+#
+# i = 0
+# out = []
+#
+# while i < len(data):
+#     if type(data[i]) == int:
+#         out.append(data[i])
+#     i += 1
+# print(out)
 
-i = 0
-out = []
 
-while i < len(data):
-    if type(data[i]) == int:
-        out.append(data[i])
-    i += 1
-print(out)
+
+
+
+
+#Q. Wap to extract vowels and consonants from string
+
+
+# a='Darshan'
+# out1='aa'
+# out2='Drshn'
+
+
+
+# a=input('Enter the sting:')
+#
+# i = 0
+# out1 = ''
+# out2 = ''
+# while i < len(a):
+#     if a[i] in 'AEIOUaeiou':
+#         out1 = out1 + a[i]
+#     else:
+#         out2 = out2 + a[i]
+#
+#     i += 1
+# print(out1)
+# print(out2)
+
+
+
+
+
+
+
+
+
+#Q. Wap to extract only the character present at odd index
+
+# a=input('Enter the string:')
+#
+# i = 0
+#
+# while i < len(a):
+#     if i % 2 != 0:
+#         print(a[i])
+#     i += 1
+
+
+
+
+
+
+
+#Q. Wap to reverse the without using type casting
+
+
+# a=int(input('Enter the number:'))
+#
+# i = 0
+# out = 0
+# while a > 0:
+#     ld = a % 10
+#     out = out * 10 + ld
+#     a = a // 10
+# print(out)
+
+
+
+
+#Q. Wap to check if given number is palindrome or not
+
+
+
+# a=int(input('Enter the number:'))
+#
+# i = 0
+# out = 0
+# backup = a
+# while a > i:
+#     ld = a % 10
+#     out = out * 10 + ld
+#     a = a // 10
+# if backup == out:
+#         print('Palindrome')
+# else:
+#         print('Not palindrome')
+
 
 
