@@ -913,7 +913,7 @@ g = 'PyTHON@12#'
 
 
 # a=input('Enter the sting:')
-#
+
 # i = 0
 # out1 = ''
 # out2 = ''
