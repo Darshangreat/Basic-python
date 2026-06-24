@@ -182,7 +182,6 @@
 # for i in range(a,0,-1):
 #
 #     out=out*i
-#     print(out)
 # print(out)
 
 
@@ -217,3 +216,44 @@
 #         if i==i[::-1]:
 #             out.append(i)
 # print(out)
+
+
+
+
+
+
+
+#Q. Wap to reverse the number using for loop
+
+# a=int(input('Enter the number:'))
+# number = str(a)
+# # print(number,type(number))
+#
+# out = ''
+# for i in number:
+#     out = i + out
+# out = int(out)
+# print(out)
+
+
+#Q. Wap to check if given number is palindrome or not
+
+
+# a=int(input('Enter the number:'))
+#
+# number = str(a)
+# out = ''
+# for i in number:
+#     out = i + out
+# out = int(out)
+# if a == out:
+#     print('palindrome')
+# else:
+#     print('not palindrome')
+
+
+
+
+
+
+#Q. Wap
