@@ -172,16 +172,171 @@
 
 #.Q
 
-a=['Python.py','basic.html','loop.py','st.css','normal.html','static.py']
+# a=['Python.py','basic.html','loop.py','st.css','normal.html','static.py']
 
 # output={'py':3,'html':2,'css':1}
 
-out = {}
+# out = {}
+# for i in a:
+#     data = i.split('.')
+#     key=data[1]
+#     if key not in out:
+#         out[key] = 1
+#     else:
+#         out[key] = out[key] + 1
+# print(out)
+
+
+
+
+
+
+
+
+# a=int(input('Enter the number:'))
+# for i in range(2,a):
+#     if a % i == 0:
+#         print('It is not a prime number')
+#         break
+# else:
+#     print('It is a prime number')
+
+
+
+
+
+
+
+
+#Q. Wap to check if a giver number is perfect number or not
+
+
+# a=int(input('Enter the number:'))
+# out = 0
+# for i in range(1,a):
+#     if a % i == 0:
+#         print(i)
+#         out = out + i
+# if a == out:
+#     print(a,'It is perfect number')
+# else:
+#     print(a,'It is not a perfect number')
+
+
+
+
+
+
+
+
+#Q. Wap to check whether the list is homogeneus or hetrogeneus
+
+# a=[12,45,56,True]
+#
+# check = a[0]
+# for i in a:
+#     if type(i) != type(check):
+#         print('Hetrogeneus')
+#         break
+# else:
+#     print('Homogenues')
+
+
+
+
+# Q1.
+
+# a=1,2,3,4,5,6,7,8,9,10
+#
+# for i in a:
+#     if i % 2 == 0:
+#         print(i)
+
+
+
+
+
+# Q2.
+
+# a=1,2,3,4,5,6,7,8,9,10
+#
+# for i in a:
+#     if i % 2 != 0:
+#         print(i)
+
+
+
+# Q3.
+
+# a=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
+#
+# for i in range(0,10):
+#     print(i)
+
+
+
+
+# Q. wap to print the factorial of the number
+
+# a=int(input('Enter the number:'))
+#
+# out = 1
+# for i in range(a,0,-1):
+#     out = out*i
+# print(out)
+
+
+
+
+#Q. wap to fetch only even values of the keys from the dictionery
+
+# n={'val1':10,'val2':20,'val3':23,'val4':22}
+# out = []
+#
+# for i in n:
+#     if n[i] % 2 == 0:
+#         out.append(n[i])
+# print(out)
+
+
+
+# Q.55
+
+# n='abcd'
+# out = {}
+#
+# for i in n:
+#     if i in n:
+#         out[i] = ord(i)
+# print(out)
+
+
+
+
+#Q.56
+
+# a = 'hello'
+# out = {}
+#
+# data = 0
+# for i in a:
+#     out[data] = i
+#     data += 1
+# print(out)
+
+
+
+#Q.wap to extract all the int from the list only if integer starting
+# with even number and ending as odd number and having lenth more than 3
+
+a=[12,8+9j,'Hii',True,241,437,838]
+
+out = []
 for i in a:
-    data = i.split('.')
-    key=data[1]
-    if key not in out:
-        out[key] = 1
-    else:
-        out[key] = out[key] + 1
+    if type(i) == int:
+        data=str(i)
+        fd=data[0]
+        ld=data[-1]
+        if(100<= i <=999) and int(fd) %2 == 0 and int(ld) % 2 != 0:
+            out.append(i)
 print(out)
