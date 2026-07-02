@@ -190,7 +190,7 @@
 
 
 
-
+#Q. Check prime number
 
 
 # a=int(input('Enter the number:'))
