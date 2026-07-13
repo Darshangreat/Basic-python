@@ -1,0 +1,81 @@
+Amazon Electronics Inventory Management System (Python + PyMySQL)
+
+Objective: Build a Python application using PyMySQL to perform CRUD
+operations on the amazon_electronics table.
+
+
+CREATE TABLE amazon_electronics (
+    product_id INT PRIMARY KEY AUTO_INCREMENT,
+    product_name VARCHAR(100),
+    category VARCHAR(50),
+    brand VARCHAR(50),
+    price DECIMAL(10,2),
+    stock INT,
+    rating DECIMAL(2,1),
+    seller VARCHAR(100),
+    discount_percent INT,
+    delivery_days INT
+);
+
+
+INSERT INTO amazon_electronics
+(product_name, category, brand, price, stock, rating, seller, discount_percent, delivery_days)
+VALUES
+('Apple iPhone 16','Mobile','Apple',89999,25,4.8,'Appario Retail',10,2),
+('Samsung Galaxy S25','Mobile','Samsung',75999,40,4.6,'Cloudtail',15,3),
+('OnePlus 13','Mobile','OnePlus',59999,30,4.5,'OnePlus Store',12,2),
+('Sony WH-1000XM5','Headphones','Sony',29999,15,4.9,'Sony India',20,4),
+('Boat Rockerz 550','Headphones','Boat',1999,120,4.3,'Boat Official',35,1),
+('Dell Inspiron 15','Laptop','Dell',68999,18,4.4,'Dell Store',8,5),
+('HP Victus','Laptop','HP',72999,12,4.5,'HP World',10,4),
+('Lenovo Legion 5','Laptop','Lenovo',89990,10,4.7,'Lenovo India',12,4),
+('Apple MacBook Air M4','Laptop','Apple',109999,8,4.9,'Apple India',5,2),
+('Samsung Smart TV 55','Television','Samsung',54999,20,4.6,'Samsung India',18,3),
+('LG OLED TV 48','Television','LG',79999,9,4.8,'LG India',15,5),
+('Mi Smart TV X','Television','Xiaomi',32999,35,4.4,'Mi Store',22,2),
+('Canon EOS 1500D','Camera','Canon',41999,16,4.5,'Canon Store',14,4),
+('Nikon D5600','Camera','Nikon',55999,11,4.6,'Nikon India',10,5),
+('JBL Flip 6','Speaker','JBL',8999,55,4.7,'JBL Official',25,2),
+('Amazon Echo Dot','Smart Speaker','Amazon',4499,75,4.6,'Amazon Retail',40,1),
+('Fire TV Stick 4K','Streaming Device','Amazon',4999,60,4.8,'Amazon Retail',35,1),
+('Logitech MX Master 3S','Mouse','Logitech',9999,28,4.9,'Logitech',12,2),
+('Mechanical Keyboard K8','Keyboard','Keychron',7499,32,4.5,'Keychron',10,3),
+('SanDisk SSD 1TB','Storage','SanDisk',6999,50,4.7,'SanDisk',18,2);
+
+Questions
+
+Part 1 - Database Connection 
+1. Connect to the MySQL database using
+PyMySQL. 
+
+
+Part 2 - Extract  Operations 
+2. Extract all products. 
+3. Extract only Product Name and Price. 
+4. Extract all Apple products. 
+5. Extract all products costing more than ₹50,000. 
+6. Extract products whose stock is less than 20. 
+7. Extract all laptops. 
+8. Extract all products ordered by price. 10. Display only the first 5 products.
+
+Part 3 - Insert Operations 
+9. Take product details from the user and insert a new product. 
+
+
+Part 4 - Update Operations 
+10. Increase the stock of a product using Product ID. 
+11. Update the price of a product. 
+12. Update the seller name. 
+13. Update the delivery days.
+
+Part 5 - Delete Operations 
+14. Delete a product using Product ID. 
+15. Delete all products whose stock is zero.
+
+
+Bonus Questions 
+16. Extract all products costing more than the average price. 
+17. Increase the price of all Apple products by 10%. 
+18. Extract all products whose delivery days are less than or equal to 2.
+
+
