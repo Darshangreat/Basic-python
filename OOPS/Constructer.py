@@ -23,3 +23,10 @@ print(rahul.ID_NO,rahul.SALARY,rahul.PERFORMANCE,rahul.BANK)
 
 object_members(sahil,3,30000,'bad','BARODA')
 print(sahil.ID_NO,sahil.SALARY,sahil.PERFORMANCE,sahil.BANK)
+
+
+
+
+
+
+
